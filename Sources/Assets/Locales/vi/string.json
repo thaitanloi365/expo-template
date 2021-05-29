@@ -1,0 +1,1009 @@
+{
+  "error": {
+    "0": "Quá thời gian yêu cầu",
+    "400": "Lỗi trong quá trình gửi dữ liệu lên máy chủ",
+    "401": "Tài khoản chưa được xác thực",
+    "403": "Bạn không có quyền truy cập chức năng này",
+    "404": "Không tìm thấy máy chủ",
+    "422": "Một số dữ liệu truyền lên không đúng",
+    "500": "Máy chủ không hoạt động",
+    "501": "Máy chủ không thể xử lý yêu cầu",
+    "502": "Máy chủ không đáp ứng yêu cầu chờ",
+    "503": "Máy chủ quá tải hoặc đang bảo trì",
+    "504": "Máy chủ không kết nối được để lấy dữ liệu",
+    "505": "Máy chủ không hỗ trợ giao thức HTTP",
+    "haveError": "Có lỗi xảy ra. Vui lòng thử lại sau",
+    "errorOnRequest": "Một lỗi xảy ra khi gửi yêu cầu",
+    "errorOnHandle": "Một lỗi xảy ra khi xử lý dữ liệu",
+    "serverError": "Lỗi máy chủ",
+    "errorNetwork": "Lỗi kết nối! Vui lòng kiểm tra lại kết nối.",
+    "errorGetPermission": "Lỗi trong quá trình kiểm tra quyền ứng dụng",
+    "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+    "required": "Thông tin bắt buộc",
+    "phoneInvalid": "Số điện thoại không hợp lệ",
+    "phoneTaken": "Số điện thoại đã được sử dụng"
+  },
+  "permissions": {
+    "noCamera": "Chưa được cấp quyền sử dụng camera"
+  },
+  "adminPermissions": {
+    "admin_add_laundry": "Quản lý tiệm giặt",
+    "admin_deliveries": "Quản lý vận chuyển",
+    "admin_swop_journeys": "Quản lý quá trình Swop",
+    "admin_moderate_accounts": "Kiểm duyệt tài khoản",
+    "admin_moderate_content": "Kiểm duyệt nội dung"
+  },
+  "common": {
+    "textAppMode": "Chọn chế độ sử dụng",
+    "textAppDev": "Xây dựng",
+    "textAppTest": "Kiểm thử",
+    "textAppProd": "Phát hành",
+    "greetingChat": "Bây giờ các bạn có thể trò chuyện với nhau",
+    "logout": "Đăng xuất",
+    "phone": "Số điện thoại",
+    "name": "Họ và tên",
+    "save": "Lưu lại",
+    "next": "Tiếp tục",
+    "permissions": "Các quyền try cập",
+    "hi": "Xin chào",
+    "wardrobe": "Tủ đồ",
+    "edit": "Chỉnh sửa",
+    "birthday": "Ngày tháng năm sinh",
+    "or": "Hoặc",
+    "size": "Kích thước",
+    "distanceSetting": "Cài đặt khoảng cách",
+    "en": "English",
+    "vi": "Tiếng Việt",
+    "camera": "Camera",
+    "imageLibrary": "Thư viện ảnh",
+    "selectImagePicker": "Chọn loại",
+    "photoLibrary": "Thư viện ảnh",
+    "flip": "Xoay",
+    "use": "Sử dụng",
+    "retake": "Chụp lại",
+    "close": "Tắt",
+    "birthdayPlaceholder": "Ngày-Tháng-Năm",
+    "day": "Ngày",
+    "days": "Ngày",
+    "remaining": "Còn lại",
+    "address": "Địa chỉ",
+    "settings": "Cài đặt",
+    "confirm": "Xác nhận",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "return": "Return",
+    "updateNow": "Thêm ngay",
+    "later": "Đê sau",
+    "requireAddressForSwop": "Vui lòng thêm địa chỉ của bạn để SWOP với những người khác.",
+    "you": "Bạn ",
+    "person": "Có người ",
+    "language": "Ngôn ngữ",
+    "addLaundry": "Thêm tiệm giặt",
+    "support": "Hỗ trợ",
+    "skip": "Bỏ qua",
+    "getStarted": "Bắt đầu",
+    "matches": "Matches",
+    "viewDetails": "Chi tiết",
+    "delete": "Xoá",
+    "editShort": "C.sửa",
+    "cancel": "Huỷ",
+    "team": "Thành viên",
+    "ok": "Đồng ý",
+    "gotIt": "Đã hiểu",
+    "getThisLook":"Lọc theo mẫu này",
+    "dashboard": "Bảng điều khiển",
+    "dashboardShort": "Bảng đ.khiển",
+    "addLaundryShort": "Thêm t.giặt"
+  },
+  "dialog": {
+    "error": "Lỗi",
+    "cancel": "Đóng",
+    "warning": "Cảnh báo",
+    "info": "Thông tin",
+    "success": "Thành công",
+    "loading": "Loading",
+    "select": "Chọn"
+  },
+  "main": {
+    "homeTab": {
+      "tvHome": "Trang chủ"
+    },
+    "likesTab": {
+      "tvLike": "Yêu thích"
+    },
+    "searchTab": {
+      "tvSearch": "Tìm kiếm"
+    },
+    "profileTab": {
+      "tvProfile": "Cá nhân"
+    }
+  },
+  "login": {
+    "continue": "Tiếp tục",
+    "title": "Vui lòng nhập số điện thoại của bạn. Chúng tôi sẽ gửi một mã số gồm 4 chữ số để xác thực số điện thoại của bạn.",
+    "term": "Điều khoản dịch vụ và chính sách bảo mật",
+    "loginByPhone": "Đăng nhập bằng số điện thoại",
+    "loginByEmail": "Đăng nhập bằng mail"
+  },
+  "verifyOTP": {
+    "title": "Nhập mã OTP gồm 4 số được gửi tới điện thoại của bạn ",
+    "resend": "Gửi lại OTP ",
+    "next": "Tiếp tục"
+  },
+  "getStarted": {
+    "welcome": "Chào mừng đến với Swop",
+    "letsGet": "Chúng ta hãy hiểu nhau hơn...",
+    "yourProfilePhoto": "Những người dùng khác sẽ không nhìn thấy ảnh hồ sơ của bạn. Chúng tôi cũng sẽ không tiết lộ tên của bạn cho những người dùng khác. Những thứ này cần thiết để giúp người gửi hàng nhận dạng bạn khi giao quần áo. Bạn cũng có thể chỉnh sửa những điều này bất cứ lúc nào trên trang hồ sơ của mình sau này.",
+    "pleaseEnterName": "Vui lòng nhập tên bạn muốn hiển thị",
+
+    "whatSizedClothes": "Kích thước quần áo nào bạn hay mặc?",
+    "onlyShowThatFit": "Chúng tôi chỉ hiên thị những bộ quần áo phù hợp với bạn.",
+    "canEditLater": "Bạn có thể chỉnh sửa lại kích thước trên trang hồ sơ của bạn sau này.",
+
+    "whatLocated": "Bạn ở đâu?",
+    "pleaseChooseAnAddress": "Vui lòng chọn địa chỉ mà bạn mong muốn đến lấy hàng. Nó có thể là nhà của bạn hoặc nơi làm việc của bạn.",
+    "inputLocationPlaceholder": "Vui lòng nhập địa chỉ ở đây",
+    "locationNote": "Điều này sẽ đưa bạn đến Google Địa điểm để giúp bạn chọn địa chỉ thuận tiện hơn.",
+    "locationDescription": "Bạn cũng có thể chỉnh sửa địa chỉ của mình trên trang hồ sơ của mình sau này. Bạn có thể trao đổi quần áo với những người khác trong cùng một thành phố, vì vậy trong quá trình trao đổi, bạn có thể yêu cầu nhận hàng tại một địa chỉ khác nhưng chỉ trong cùng một thành phố. Không phải tất cả các tùy chọn giao dịch (Gặp mặt trực tiếp, Tự đến tiệm giặt, Giao hàng tận nơi) đều có sẵn ở tất cả các thành phố. Các thành phố mới sẽ sớm được thêm vào.",
+
+    "inputEmailTitle": "Bạn cũng có thể đăng nhập bằng email",
+    "inputEmailNote":"Bạn cũng có thể đăng nhập qua email khôi phục của mình trong trường hợp bạn bị mất điện thoại hoặc khi bạn đang đi du lịch và không thể lấy OTP trên số di động của mình. Và, chúng tôi không có ý định gửi thư rác cho bạn hoặc gửi cho bạn bất kỳ email hàng tuần nào ;)",
+    "inputEmailPlaceholder": "Vui lòng nhập email của bạn"
+  },
+  "onBoarding": {
+    "titleOnboardingLike": "Thích",
+    "contentOnboardingLike": "Quẹt phải để Thích và quẹt Trái để Không Thích những bộ đồ xung quanh bạn.",
+    "titleOnboardingMatch": "Phù hợp",
+    "contentOnboardingMatch": "Nếu bạn thích một bộ đồ của người nào đó và người đó cũng thích bộ đồ của bạn, thì sẽ có một sự phù hợp! ",
+    "titleOnboardingSwap": "Trao đổi",
+    "contentOnboardingSwap": "Trong những sự phù hợp với bạn, bạn có thể chọn sự phù hợp mà bạn thích để trao đổi. Chúng tôi sẽ lo phần còn lại ;-)"
+  },
+  "wardrobe": {
+    "visibleOnlyToYou": "Chỉ bạn mới có thể thấy",
+    "delistDressPage": "Ẩn tủ đồ của bạn?",
+    "yourDressesUnavailable": "Những bộ quần áo của bạn sẽ tạm thời được ẩn đi và những người khác sẽ không thể trao đổi với bạn.",
+    "emptyDress": "Tủ đồ trống",
+    "addDress": "Thêm quần áo",
+    "addMore": "Tạo thêm trang phục"
+  },
+  "dressPage": {
+    "type": "Loại",
+    "size": "Kích thước",
+    "brand": "Nhãn hiệu",
+    "fit": "Fit",
+    "fabric": "Chất liệu",
+    "pattern": "Hoạ tiết",
+    "color": "Màu sắc",
+    "canBeWorn": "Dịp thích hợp để mặc",
+    "canSwop": "Bạn có thể phối chiếc váy trên với bất kỳ chiệc váy nào bên dưới.",
+    "dressIsDelisted": " Để tìm được nhiều bộ đồ phù hợp hơn, hãy publish bộ đồ này.",
+    "swopAvailable": "Swops hiện có",
+    "noteFromOwner": "Ghi chú của chủ sở hữu",
+     "delistThisDress": "Delist this dress page?",
+    "delistNote":"If you delist, the dress will not be shown to others for swopping.",
+
+    "editPage": "Chỉnh sửa",
+    "editNote":"Nếu bạn chỉnh sửa bộ đồ này, tất cả những bộ đồ bạn đã Thích (hoặc Không Thích) cho tới thời điểm hiện tại sẽ mất hết. Nó giống như một khởi đầu mới.",
+
+    "withThisLooks": "Những bộ đồ tương tự",
+
+    "modalEditQuestion": "Bạn có chắc rằng bạn muốn chỉnh sửa?",
+    "modalEditNote": "Nếu bạn chỉnh sửa bộ đồ này, những gì bạn đã Thích (hoặc Không Thích) sẽ mấy hết.\n\nVà nếu ai đó đã đề nghị trao đổi bộ đồ này hoặc nếu bạn đã xác nhận trao đổi bộ đồ này với ai đó, thì sự trao đổi này sẽ phải bị hết hạn.",
+    "modalEditConfirm": "Đã hiểu. Tôi vẫn muốn trao đổi",
+    "modalEditCancel": "Nó tốt rồi. Tôi không muốn chỉnh sửa.",
+
+    "modalReportTitle": "Báo cáo",
+    "modalReportNote": "Nếu bạn thấy nội dung của trang này gây khó chịu, vui lòng báo cáo cho chúng tôi. chúng tôi sẽ xem xét vấn đề này ngay lập tức và nếu được yêu cầu, sẽ xóa trang này khỏi ứng dụng ngay lập tức. Hãy sử dụng nó một cách có trách nhiệm",
+    "modalReportPhoto": "Hình ảnh phản cảm",
+    "modalReportText": "Nội dung gây khó chịu",
+    "modalReportCancel": "Tất cả đều tốt. Huỷ bỏ",
+
+    "titleContentModerator": "Chỉ hiển thị với người kiểm duyệt nội dung",
+    "hideThisDressPage": "Ẩn trang này?",
+    "deactivateThisUser": "Huỷ kich hoạt người dùng này?",
+
+    "otherDressFromWardrobe": "Những bộ đồ khác từu tủ đồ này.",
+    "otherDressFromWardrobeQuestion":"Không muốn thấy quần áo từ tủ đồ này trong tương lai?"
+  },
+  "denyUser": {
+    "denyQuestion": "Bạn không nghĩ là bạn sẽ thích tủ đồ của cô ấy chứ?",
+    "questionShowMore": "Không hiện tủ đồ của cô ấy?"
+  },
+  "filterModal": {
+    "filter": "Bộ Lọc",
+    "cancel": "Huỷ",
+    "type": "Loại",
+    "size": "Kích thước",
+    "patternSize": "Kích thước hoạ tiết",
+    "country": "Chuẩn",
+    "brand": "Nhãn hiệu",
+    "fit": "Fit",
+    "fabric": "Chất liệu",
+    "pattern": "Hoạ tiết",
+    "color": "Màu sắc",
+    "canBeWorn": "Dịp thích hợp để mặc",
+    "or": "hoặc",
+    "chest": "Ngực {{unit}}",
+    "waist": "Thắt lưng {{unit}}",
+    "hips": "Hông {{unit}}",
+    "apply": "Áp dụng",
+    "category": "Category",
+    "sleeves": "Sleeves",
+    "neckline": "Neckline",
+    "style": "Style",
+    "waistRise": "Waist Rise",
+    "legs": "Legs",
+    "length": "Length",
+    "clear": "Xoá"
+  },
+  "matching": {
+    "congratulation": "Matching",
+    "canSwop": "Chúc mừng!. Bạn có thể bắt đầu trao đổi!!",
+    "remaining": "Thời gian còn lại",
+    "pickDateNote": "Nếu bạn thích Swop này, vui lòng chọn thời gian phù hợp để chúng tôi có thể đến lấy đồ của bạn. Nếu không, bạn có thể tự mang quần áo của mình đến địa điểm thích hợp gần bạn.",
+    "pleaseSelectTimeSlot": "Vui lòng chọn ít nhất một lịch hẹn",
+    "noteTimeSlot": "Đừng lo lắng. Bạn có thể huỷ Swop này bất cứ lúc nào trong vòng 24 giờ tới. Việc huỷ bỏ thực hiện trong khoảng thời gian này không ảnh hưởng đến rating của người dùng. Happy Swopping!",
+    "notInterested": "Không thích",
+    "interested": "Thích",
+    "matchConfirm": "Sau khi có người đề nghị trao đổi, bạn có 24 giờ để xác nhận, nếu bạn không xác nhận trong vòng 24 giờ thì sự trao đổi sẽ hết hiệu lực để người khác sẽ có thể tiếp tục trao đổi"
+  },
+  "matchingDateTime": {
+    "dateAndTime": "Lịch hẹn",
+    "pleasePickDateTime": "Vui lòng chọn thời gian mà bạn có thể trao đổi đồ của mình",
+    "dontWorry": "Đừng lo lắng. Bạn có thể thay đổi thời gian mang quần áo đến tiệm giặt trong tuần này. Trong trường hợp bạn không mang quần áo đến tiệm giặt thì sự trao đổi sẽ bị huỷ bỏ. Happy Swopping!",
+    "next": "Tiếp tục",
+    "attention": "Chú ý:",
+    "attentionContent1": " Hãy chắc chắn rằng ở thời điểm gặp mặt hoặc trao đổi hoặc quần áo được trả lại, người còn lại đã bấm vào nút  ",
+    "received": "Đã nhận",
+    "attentionContent2": " trên app. Và bạn cũng làm tương tự như vậy.",
+    "meetInPersonNote": "Ở phương thức 'Gặp trực tiếp', chúng tôi có giới hạn đối với người trao đổi. Điều này hoàn toàn phụ thuộc vào kết nối của bạn với người trao đổi. Tất cả những gì mà chúng tôi muốn nói là, chúc bạn có sự trao đổi như ý.",
+    "laundryName": "Tên tiệm giặt",
+    "laundryAddress": "Địa chỉ tiệm giặt",
+    "laundryNote": "Vui lòng mang quần áo của bạn đến tiệm giặt trong vòng 1 tuần. Trong trường hợp bạn không mang đồ đến thì sự trao đổi sẽ bị huỷ bỏ để người khác có thể tiếp tục trao đổi. Happy Swopping!"
+  },
+  "matchingStatus": {
+    "proposed": "Đề xuất",
+    "accepted": "Xác nhận",
+    "canceled": "Huỷ bỏ",
+    "expired": "Hết hạn",
+    "pair_killed": "Pair Killed",
+    "finished": "Finished",
+    "early_return_proposed": "Đề xuất hoàn trả sớm",
+    "early_return_confirmed": "Chấp nhận hoàn trả sớm",
+    "retention_proposed": "Đề xuất đổi đồ vĩnh viễn",
+    "retention_confirmed": "Chấp nhận đổi đồ vĩnh viễn",
+    "extension_proposed": "Đề xuất gia hạn đổi đồ",
+    "extension_confirmed": "Chấp nhận gia hạn đổi đồ",
+    "return_initiated": "Bắt đầu hoàn trả",
+    "defaulted": "Trễ hạn",
+    "un_finished": "Hoàn thành hoàn trả"
+  },
+  "swopStatusDescription": {
+    "proposed": "Sau khi đề xuất, bạn cần đợi đối phương chấp nhận trong vòng 24h",
+    "confirmingChat": "Đối phương đề nghị trao đổi đồ thông qua gặp trực tiếp vào {{dateTime}}. Bạn có thể đề nghị khung giờ khác và địa điểm khác phù hợp với bạn thông qua mục nhắn tin",
+    "accepted": "Chấp nhận",
+    "canceled": "Huỷ bỏ",
+    "expired": "Quá hạn",
+    "denied": "Từ chối"
+  },
+  "trackingStatus": {
+    "proposed": "Đề xuất",
+    "accepted": "Chấp Nhận",
+    "waiting_accept": "Đề xuất",
+    "pair_killed": "Huỷ tương hợp",
+    "expired": "Quá hạn",
+    "pick_up_scheduled": "Đã lên lịch lấy đồ",
+    "pick_up_attempts": "Lấy đồ lần thứ {{count}}",
+    "pick_up_assigned": "Đã chỉ định lấy đồ",
+    "picked": "Đã lấy đồ",
+    "un_picked_up":"Không thể lấy đồ",
+    "different":"Sai trang phục",
+    "canceled":"Huỷ bỏ",
+    "received":"Trang phục được nhận",
+    "ready":"Sẵn sàng",
+    "delivery_scheduled":"Đã lên lịch giao đồ",
+    "delivery_attempts":"Giao đồ lần thứ {{count}}",
+    "delivery_assigned":"Đã chỉ định giao đồ",
+    "shipped":"Shipper đã nhận đồ",
+    "delivered":"Đã giao đồ thành công",
+    "un_delivered":"Giao đồ không thành công",
+    "finished":"Hoàn thành trao đổi",
+    "confirmed":"Đã xác nhận",
+
+    "return_pick_up_scheduled":"Đã lên lịch lấy đồ hoàn trả",
+    "return_pick_up_assigned":"Đã chỉ định lấy đồ hoàn trả",
+    "return_un_picked":"Không thể lấy đồ hoàn trả",
+    "return_picked":"Đã lấy đồ hoàn trả thành công",
+    "return_received":"Đồ hoàn trả bắt đầu được giặt ủi",
+    "return_ready":"Sẵn sàng hoàn trả đồ",
+    "return_delivery_scheduled":"Đã lên lịch giao đồ hoàn trả",
+    "return_delivery_assigned":"Đã xác nhận giao đồ hoàn trả",
+    "return_delivered":"Đã giao đồ hoàn trả thành công",
+    "return_shipped":"Shipper đã nhận đồ hoàn trả",
+    "return_un_delivered":"Giao đồ hoàn trả không thành công",
+    "return_different":"Hoàn trả sai trang phục",
+
+    "early_return_proposed": "Đề xuất hoàn trả sớm",
+    "retention_proposed": "Đề xuất đổi đồ vĩnh viễn",
+    "extension_proposed": "Đề xuất gia hạn đổi đồ",
+
+    "early_return_requested":"Đã đề xuất hoàn trả sớm",
+    "retention_requested":"Đã đề xuất đổi đồ vĩnh viễn",
+    "extension_requested":"Đã đề xuất gia hạn đổi đồ",
+
+    "early_return_confirmed": "Chấp nhận hoàn trả sớm",
+    "retention_confirmed":"Chấp nhận đổi đồ vĩnh viễn",
+    "extension_confirmed":"Chấp nhận gia hạn đổi đồ"
+  },
+  "trackingStatusDescription": {
+    "proposed": "Sau khi đề xuất, bạn cần đợi đối phương chấp nhận trong vòng 24h",
+    "accepted": "Đối phương đã chấp nhận đề xuất đổi đồ của bạn",
+    "denied": "Đối phương đã từ chối đề xuất đổi đồ của bạn",
+    "expired": "Đề xuất đổi đồ của bạn đã quá hạn",
+    "picking_up": "Đang lấy đồ",
+    "pick_up_attempts": "Lấy đồ lần thứ {{count}}",
+    "picked": "Đã lấy đồ",
+    "arriving": "Đang di chuyển",
+    "arrived": "Đã di chuyển đến",
+    "delivering": "Đang giao đồ",
+    "deliver_attempts": "Giao đồ lần thứ {{count}}",
+    "delivered": "Đã giao đồ",
+    "arriving_back": "Đang di chuyền về",
+    "arrived_back": "Đã di chuyển về lại",
+    "returning": "Đang trả lại đồ",
+    "return_attempts": "Trả lại đồ lần thứ {{count}}",
+    "returned'": "Đã trả lại đồ"
+  },
+  "matchingLogisticMethod" : {
+    "self": "Tại\n tiệm giặt",
+    "laundry": "Giao\n tận nơi",
+    "chat": "Gặp\n trực tiếp",
+  },
+  "matchingLogistic": {
+    "information": "Thông tin",
+    "self": "Tại tiệm giặt",
+    "laundry": "Giao tận nơi",
+    "chat": "Gặp trực tiếp",
+    "canSwop": "Bạn có thể trao đổi quần áo bằng cách tự mang quần áo của mình đến tiệm giặt ủi gần nhất, và bạn chỉ phải trả phí trao đổi.",
+    "canSwopDelivery": "Bạn có thể nhận quần áo đã trao đổi tại nhà, và chỉ phải trả thêm một khoảng nhỏ cho phí vận chuyển.",
+    "locationRange": "Trong phạm vi 3km.",
+    "laundryAddress": "Địa chỉ các tiệm giặt ủi.",
+    "clickShowMap": "Mở Google Map",
+    "currency": "VNĐ",
+    "swopFee": "Phí trao đổi*",
+    "viewMore": "* Xem thêm",
+    "viewLess": "* Ẩn bớt",
+    "noteSwopFee": "* Bao gồm 2 lần giặt - (i) Khi quần áo đến tiệm giặt để đem đi trao đối, và (ii) Quần áo trở lại tiệm giặt ủi sau khi đã trao đổi.",
+    "noteSwopFeeWarning": "Có thể trả bằng tiền mặt khi bạn nhận được quần áo từ người trao đổi.",
+    "saleOff": "Giảm 50% phí trao đổi",
+    "deliveryCharges": "Phí vận chuyển",
+    "approx": "(Approx.)",
+    "noteDelivery": "* Bao gồm 4 chặng cho mỗi lần trao đổi; (i) Quần áo của bạn được vận chuyển đến tiệm giặt ủi, (ii) Quần áo từ người trao đổi chuyển đến bạn từ tiệm giặt ủi, (iii) Quần áo bạn đã trao đổi trở về lại tiệm giặt ủi, và (iv) Quần áo của bạn được trả về cho bạn từ tiệm giặt ủi sau khi kết thúc việc trao đổi.",
+    "noteDeliveryWarning": "Có thể trả tiền mặt ở mỗi lần vận chuyển.",
+    "confirm": "Xác nhận",
+    "cancel": "Huỷ bỏ",
+    "chatTitle": "Bạn có thể trao đổi quần áo bằng cách gặp trực tiếp người trao đổi với thời gian và địa điểm phù hợp với cả hai. Cả hai bạn có thể trò chuyện với nhau thông qua Swop app trong 30 ngày.",
+    "chatFeeDescription": "Gồm 30 ngày đươc quyền chat.",
+    "chatFeeNote": "Chỉ thanh toán khi người trao đổi xác nhận trao đổi.",
+    "total": "Tổng cộng",
+    "laundryTitle": "Bạn có thể trao đổi quần áo đã được làm sạch trước khi họ mang đến cho bạn. Bạn chỉ cần mang quần áo đến một trong những tiệm giặt gần bạn là đối tác của chúng tôi. Chúng tôi sẽ làm việc đó cho bạn.",
+    "cleanServiceFee": "Phí giặt ủi",
+    "cleanServiceFeeDescription": "Gồm 2 lần làm sạch quần áo (i) Khi quần áo được mang đến cho bạn, và (ii) Khi quần áo được trao đổi trở về sao quá trình trao đổi.",
+    "deliveryTitle": "Bạn có thể nhận quần áo tại nhà (hoặc công ty) của bạn chỉ với một khoảng chi phí nhỏ. Những bộ quần áo được trao đổi sẽ được làm sạch trước khi mang đến cho bạn. Tất cả những gì bạn phải làm là giao quần áo của mình cho đối tác của chúng tôi với dịch vụ giao hàng theo yêu cầu.",
+    "deliveryDescription": "Gồm 4 lần vận chuyển (i) Quần áo của bạn đến tiệm giặt ủi, (ii) Quần áo của người trao đổi từ tiệm giặt đến chỗ bạn, (iii) Quần áo của người trao đổi từ chỗ bạn đến tiệm giặt, và (iv) Quần áo của bạn được trả về từ tiệm giặt. Phí vận chuyển được thanh toán ở mỗi lần vận chuyển.",
+    "mannerOfSwop": "Phương thức trao đổi",
+    "notAllOptions": "Các tuỳ chọn không phải lúc nào cũng có sẵn ở mọi nơi.",
+    "contactUs": "Liên hệ"
+  },
+  "profile": {
+    "languageSetting": "Cài đặt ngôn ngữ",
+    "profileNote": "Hình đại diện và tên của bạn chỉ hiện với những người mà bạn trao đổi với họ.",
+    "selectLanguage": "Lựa chọn ngôn ngữ",
+    "addressNote": "Địa chỉ được dùng để tìm kiếm những người dùng khác xung quanh bạn. Chúng tôi hiểu rằng bạn không phải lúc nào cũng ở đó. Bạn có thể chọn địa điểm giao nhận khác thuận tiện cho bạn.",
+    "dimensions": "Kich thước theo đơn vị {{unit}}",
+    "stats": "Thống kê {{unit}}",
+    "height": "Chiều cao {{unit}}",
+    "weight": "Cân nặng {{unit}}",
+    "distanceNote": "Khoảng cách càng lớn thì càng có nhiều sự lựa chọn hơn từ những người dùng ở xa bạn. Nhưng bạn phải trả phí vận chuyển nhiều hơn, hoặc di chuyển xa hơn để lấy quần áo từ họ.",
+    "recoveryEmail": "Email khôi phục",
+    "recoveryEmailNote": "Trong trường hợp bạn mất số điện thoại đã đăng ký (số điện thoại được dùng để đăng nhập vào ứng dụng), bạn có thể nhận mã OTP để đăng nhập vào ứng dụng từ địa chỉ email này.",
+    "profileNotVisible": "Thông tin của bạn sẽ không bị xem bởi những người dùng khác",
+    "errorHeight": "* Chiều cao phải lớn hơn 0",
+    "errorWeight": "* Cân nặng phải lớn hơn 0",
+    "referralTitle1": "Giới thiệu bạn bè của bạn",
+    "referralTitle2": "Kiếm swop miễn phí",
+    "referralSubTitle": "Mỗi khi có người sử dụng mã giới thiệu của bạn để đăng nhập lần đầu, cả bạn và họ sẽ nhận được 01 swop miễn phí",
+    "copy": "SAO CHÉP",
+    "share": "CHIA SẺ",
+    "creditReferralDescription": "Bạn có thể mua thêm swop tokens bất cứ lúc nào. Ngoài ra, khi bạn giới thiệu cho một người bạn, chúng tôi sẽ tặng 1 swop token miễn phí cho cả hai bạn! Và trong quá trình swop, nếu người bạn muốn đổi đồ hủy lượt swop, chúng tôi sẽ gửi 1 swop tokens miễn phí cho bạn.",
+    "creditDescription": "Nếu đối phương huỷ bỏ trao đổi đồ, chúng tôi sẽ hoàn lại bạn 01 swop bạn đã sử dụng",
+    "swopRemaining": "Swop hiện có",
+    "buyNow": "Mua ngay",
+    "plansTitle": "Vui lòng mua thêm swop để tiếp tục"
+  },
+  "createDress": {
+    "createDress": "Khởi tạo",
+    "title": "Tiêu đề",
+    "cancel": "Huỷ bỏ",
+    "create": "Tạo",
+    "about": "Thông tin",
+    "sizeHelper": "Để chúng tôi giới thiệu trang phục này tới đúng đối tượng, vui lòng cung cấp cho chúng tôi kích thước qua ít nhất một trong các cách sau",
+    "note": "Ghi chú",
+    "noteHelper": "Những mục có dấu * là bắt buộc, còn lại là tuỳ chọn. Bạn cung cấp càng nhiều thông tin, càng nhiều người dùng sẽ có thể thấy được trang phục của bạn và bạn sẽ có thể nhận được nhiều cơ hội trao đổi trang phục",
+    "oneSizeFitAll": "Phù hợp mọi người",
+    "addMorePhoto": "Cập nhập thêm hình ảnh",
+    "photoRequired": "Vui lòng tải ít nhất 1 tấm cho bộ dồ của bạn"
+  },
+  "swop": {
+    "remaining": "Còn lại",
+    "swopExpiredMessage": "Sau khi có người đề nghị trao đổi, bạn có 24 giờ để xác nhận, quá thời gian trên thì việc trao đổi hết hiệu lực để người khác có thể tiếp tục trao đổi.",
+    "swopMeetInPerson1": "Người bạn muốn trao đổi đề nghị trao đổi trực tiếp với bạn vào ",
+    "swopMeetInPerson2": "Bạn có thể đề nghị một khoản thời gian khác hoặc địa điểm khác phù hợp với bạn bằng cách chat trực tiếp với người đó.",
+    "swopProposed": "{{swopper}}đã đề nghị trao đổi vào "
+  },
+  "dayWeek": {
+    "Monday": "Thứ hai",
+    "Tuesday": "Thứ ba",
+    "Wednesday": "Thứ tư",
+    "Thursday": "Thứ năm",
+    "Friday": "Thứ sáu",
+    "Saturday": "Thứ bảy",
+    "Sunday": "Chủ nhật"
+  },
+  "dayWeekShort": {
+    "Mon": "T.Hai",
+    "Tue": "T.Ba",
+    "Wed": "T.Tư",
+    "Thu": "T.Năm",
+    "Fri": "T.Sáu",
+    "Sat": "T.Bảy",
+    "Sun": "CN"
+  },
+  "month": {
+    "January": "Tháng một",
+    "February": "Tháng hai",
+    "March": "Tháng ba",
+    "April": "Tháng tư",
+    "May": "Tháng năm",
+    "June": "Tháng sáu",
+    "July": "Tháng bảy",
+    "August": "Tháng tám",
+    "September": "Tháng chín",
+    "October": "Tháng mười",
+    "November": "Tháng mười một",
+    "December": "Tháng mười hai"
+  },
+  "monthShort": {
+    "January": "Tháng một",
+    "February": "Tháng hai",
+    "March": "Tháng ba",
+    "April": "Tháng tư",
+    "May": "Tháng năm",
+    "June": "Tháng sáu",
+    "July": "Tháng bảy",
+    "August": "Tháng tám",
+    "September": "Tháng chín",
+    "October": "Tháng mười",
+    "November": "Tháng mười một",
+    "December": "Tháng mười hai"
+  },
+  "adminHome": {
+    "searchTitle": "Vui lòng nhập Swop Code hoặc 4 số cuối của điện thoại",
+    "orFilterTitle": "Hoặc Lọc theo trạng thái"
+  },
+  "adminTeam": {
+    "adminTeam": "Đội quản lý",
+    "addMoreMember": "Thêm thành viên"
+  },
+  "adminTeamAddMember": {
+    "permissionRequired": "Vui lòng chọn ít nhất 1 quyền"
+  },
+  "adminDashboard": {
+    "total_user": "Tổng người dùng",
+    "total_organic_user": "Người dùng miễn phí",
+    "total_referred_user": "Người dùng được giới thiệu",
+    "total_swop_proposed": "Swop được đề nghị",
+    "total_swop_accepted": "Swop được chấp nhận",
+    "total_swop_accepted_meet_in_person": "Swop được chấp nhận (Gặp trực tiếp)",
+    "total_swop_accepted_pick_and_drop": "Swop được chấp nhận (Tự đến t.giặt)",
+    "total_swop_accepted_home_delivery": "Swop được chấp nhận (Giao tận nơi)",
+    "total_swop_defaulted": "Trễ hạn",
+    "total_swop_early_returned": "Swop trả sớm",
+    "total_swop_retained": "Swops được giữ lại",
+    "total_swop_extended": "Swops được gia hạn",
+    "total_dress_pages": "Tổng Quần áo",
+    "total_swipes": "Tổn số lần qụet",
+    "total_right_swipes": "Lượt thích (Quẹt Phải)",
+    "total_left_swipes": "Lượt không thích (Quẹt Trái)",
+    "total_swop_fee": "Tổng phí Swop",
+    "total_laundries": "Số tiệm giặt",
+    "total_laundry_earnings": "Tổng thu nhập tự tiệm giặt",
+    "total_deliveries": "Tổng số lần giao hành",
+    "total_delivery_charges": "Tổng phí vận chuyển",
+    "cumulativeAsToday":"Tích luỹ hôm nay",
+    "deliveryRates":"Mức phí vận chuyển",
+    "defaultCurrency": "Tiền tệ mặc định",
+    "deliveryPerKm": "Phí vận chuyển (mỗi km)",
+    "country":"Đất nước"
+  },
+  "adminLaundry": {
+    "country": "Quốc gia",
+    "city": "Thành phố",
+    "laundryNameAndAddress": "Tên và địa chỉ Tiệm giặt ủi",
+    "laundryName": "Tên tiệm của giặt ủi",
+    "laundryRepresentative": "Thông đại diện của tiêm giặt ủi",
+    "relationshipManagerName": "Tên đại diện",
+    "relationshipManagerPhone": "Số điện thoại đại diện",
+    "locations": "Ví trí",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "addLaundry": "Laundries",
+    "addMoreLaundry": "Thêm tiệm giặt ủi",
+    "addLocation": "Thêm vị trí",
+    "laundryManager": "Quản lý",
+    "laundryManagerName": "Tên quản lý",
+    "locationManagerPhone": "Số điện thoại quản lý",
+    "deliveryCapacity": "Sức chứa phân phối",
+    "shippersAvailable": "Số shipper hiện có",
+    "shippersAvailableNote": "Mỗi shipper có thể thực hiện ~900 pick & drops trong 1 tháng. Chúng tôi chỉ cung cấp tối đa giá trị mà đội ngủ của bạn có thể thực hiện được.",
+    "stopRoutingOrders": "Tạm thời ngưng nhận quần áo?",
+    "pricing": "Giá cả",
+    "washFoldPrice": "giặt và gấp cho mỗi bộ quần áo",
+    "deliveryCharges": "Phí vận chuyển mỗi KM",
+    "addLocationMustBeDiffPhone": "Phải khác với số điện thoại của tiệm giặt ủi",
+    "addLocationMustBeDiffManagerPhone": "Phải khác với số điện thoại của quản lý tiệm giặt ủi",
+    "locationAlreadyTaken": "Địa điểm này đã tồn tại",
+    "locationRequired": "Vui lòng thêm ít nhất 1 địa chỉ của tiệm giặt ủi",
+    "locationManagerNote": "Chỉ có quản lý mới có thể thêm hoặc chỉnh sữa thành viên và thay đổi Giá cả của tiệm giặt ủi.",
+    "pricingNotes": "Cho những tiệm giặt ở gần, những đơn đặt hàng sẽ được đưa đến những tiệm giặt có giá tốt hơn cho người dùng. Vì vậy, nếu bạn muốn tiếp tục nhận được nhiều đơn hàng hơn, hãy cung cấp cho người dùng mức giá tốt nhất.",
+    "relationshipManagerNotes": "Khi có bất kỳ vấn đề nào, hãy liên hệ chuyên viên quan hệ khách hàng. ",
+    "relationshipManager": "Chuyên viên quan hệ khách hàng",
+    "laundries": "Danh sách tiệm giặt ủi",
+    "accepted": "Đã chấp nhận",
+    "notAccepted": "Ngưng chấp nhận",
+    "active": "Hoạt động",
+    "notActive": "Ngưng hoạt động",
+    "date": "Thời gian",
+    "timeSlot": "Khoảng thời gian",
+    "assign": "Chỉ định",
+    "reschedule": "Lên lịch lại",
+    "chargingFee": "Chi phí",
+    "deliveryFee": "Chi phí giao nhận",
+    "swopCode": "Mã Swop",
+    "cleaning": "Giặt",
+    "delivery": "Giao hàng",
+    "deliveries": "Giao hàng",
+    "viewLaundrySettings": "Xem thiết lập tiệm giặt ủi",
+    "laundrySettings": "Thiết lập tiệm giặt ủi",
+    "reassign": "Đổi tiệm giặt"
+  },
+  "laundryTeam": {
+    "laundryTeam": "Nhóm tiệm giặt ủi",
+    "addMoreMember": "Thêm thành viên"
+  },
+  "laundryTeamMember": {
+    "permissionRequired": "Vui lòng chọn ít nhất 1 quyền cho thành viên"
+  },
+  "laundrySetting": {
+    "nameOfRelationshipManager": "Tên:",
+    "mobileNumber": "Số điện thoại:"
+  },
+  "laundryHome": {
+    "searchTitle": "Vui lòng nhập Swop Code hoặc 4 số cuối của điện thoại",
+    "collectedMoney": "Collected {{currency}} {{price}}",
+    "collectMoney": "Collect {{currency}} {{price}}"
+  },
+  "laundryEarnings": {
+    "earnings": "Thu nhập",
+    "detailFor": "Chi tiết cho ngày ",
+    "totalSwopRevenuesIn": "Tổng thu nhập Swop trong ",
+    "swopCode": "Swop Code",
+    "mobileNo": "SĐT",
+    "clothDetails": "Chi tiết bộ đồ",
+    "revenues": "Thu nhập"
+  },
+  "swopStatusTitle": {
+    "accepted": "Swop được chấp nhận",
+    "proposed": "Swop được đề nghị",
+    "waiting_accept": "Swop được đề nghị",
+
+    "expired": "Swop quá hạn",
+    "pick_up_scheduled": "Đã lên lịch lấy đồ",
+
+    "picked": "Lấy đồ thành công",
+    "un_picked": "Lấy đồ thất bại",
+
+    "received": "Bắt đầu giặt đồ",
+    "ready": "Đồ đã được giặt",
+    "delivery_scheduled": "Đã lên lịch giao đồ",
+    "delivery_assigned":"Đã chỉ định giao đồ",
+    "shipped": "Shipper đã nhận đồ",
+    "delivered": "Giao đồ thành công",
+    "un_delivered": "Giao đồ thất bại",
+
+    "finished": "Hoàn thành đổi đồ",
+
+    "pick_up_assigned": "Đã chỉ định lấy đồ",
+    "pair_killed": "Huỷ tương hợp",
+    "confirmed": "Đã xác nhận",
+
+    "early_return_proposed": "Đề xuất hoàn trả sớm",
+    "retention_proposed": "Đề xuất đổi đồ vĩnh viễn",
+    "extension_proposed": "Đề xuất gia hạn đổi đồ",
+
+    "early_return_requested": "Đã đề xuất hoàn trả sớm",
+    "retention_requested": "Đã đề xuất đổi đồ vĩnh viễn",
+    "extension_requested": "Đã đề xuất gia hạn đổi đồ",
+
+    "early_return_confirmed": "Chấp nhận hoàn trả sớm",
+    "retention_confirmed":"Chấp nhận đổi đồ vĩnh viễn",
+    "extension_confirmed":"Chấp nhận gia hạn đổi đồ",
+
+    "return_pick_up_scheduling": "Lên lịch lấy đồ hoàn trả",
+    "return_pick_up_scheduled": "Đã lên lịch lấy đồ hoàn trả",
+
+    "return_pick_up_assigned": "Đã chỉ định lấy đồ hoàn trả",
+
+    "return_picked": "Đã lấy đồ hoàn trả thành công",
+    "return_un_picked": "Lấy đồ hoàn trả thất bại",
+    "return_received": "Đồ hoàn trả bắt đầu được giặt ủi",
+    "return_ready": "Sẵn sàng hoàn trả đồ",
+    "return_delivery_scheduled": "Đã lên lịch giao đồ hoàn trả",
+
+    "return_delivery_assigned":"Đã xác nhận giao đồ hoàn trả",
+    "return_delivered": "Hoàn trả đồ thành công",
+    "return_shipped": "Shipper đã nhận đồ hoàn trả",
+    "return_un_delivered": "Giao đồ hoàn trả không thành công",
+
+    "defaulted": "Trễ hạn"
+  },
+  "swopStatusSubTitle": {
+    "accepted": "Chúc mừng, Swop đã được chấp nhận. Hãy sẵn sàng giao đồ của bạn",
+    "proposed": "Swop có thể được huỷ trong 24 giờ kể từ khi đề nghị trao đổi",
+    "waiting_accept": "Swop có thể được huỷ trong 24 giờ kể từ khi đề nghị trao đổi",
+
+    "expired": "Swop đã quá hạn. Swop cần được xác nhận trong vòng 24 giờ",
+    "pick_up_scheduled_chat": "Vui lòng chọn địa điểm và thời gian thuận tiện để trao đổi đồ thông qua chat",
+    "pick_up_scheduled_self": "Vui lòng giao đồ của bạn tại {{laundryAddress}} trước {{time}} ngày {{date}}",
+    "pick_up_scheduled_laundry": "Vui lòng sẵn sàng giao đồ của bạn vào {{date}} trong khoảng {{timeSlot}}",
+
+    "picked": "Bạn đã giao đồ của bạn",
+    "un_picked": "Bạn đã không giao đồ của bạn để trao đổi",
+
+    "received": "Đồ của bạn chuẩn bị được giặt ủi",
+    "ready": "Đồ trao đổi đã sẵn sàng để vận chuyển",
+    "delivery_scheduled_self": "Vui lòng nhận đồ trao đổi tại {{laundryAddress}} trước {{time}} ngày {{date}}. Vui lòng trả {{fee}} ở tiệm giặt.",
+    "delivery_scheduled_laundry": "Vui lòng sẵn sàng nhận đồ trao đổi vào {{date}} trong khoảng {{timeSlot}}",
+    "delivery_assigned_self":"Vui lòng nhận đồ trao đổi tại {{laundryAddress}} trước {{time}} ngày {{date}}",
+    "delivery_assigned_laudry":"Vui lòng sẵn sàng nhận đồ trao đổi vào {{date}} trong khoảng {{timeSlot}}",
+    "shipped": "Shipper đã nhận đồ",
+    "delivered": "Bạn đã nhận đồ trao đổi",
+    "un_delivered": "Bạn có thể nhận đồ trao đổi vào thời gian thích hợp của bạn tại {{laundryAddress}}.",
+
+    "finished": "Đồ trao đổi đã được giao thành công",
+
+    "pick_up_assigned": "Vui lòng sẵn sàng giao đồ của bạn vào {{date}} trong khoảng {{timeSlot}}. Hãy trả {{fee}} cho shipper",
+    "pair_killed": "Bạn được tự do đổi đồ này với các tương hợp khác",
+    "confirmed": "Swop có thể được huỷ trong 24 giờ kể từ khi đề nghị trao đổi",
+
+    "early_return_proposed": "Không quá yêu thích đồ đã đổi? Đừng lo. Trong tuần tới, bất cứ lúc nào bạn cũng có thể đề nghị hoàn trả đồ sớm hơn dự định. Nếu cả hai đều đồng ý, chúng tôi sẽ tiến hành hoàn trả đồ ngay lập tức",
+    "retention_proposed": "Quá yêu thích đồ đã đổi? Trong tuần tới, bất cứ lúc nào bạn cũng có thể đề nghị giữ đồ vĩnh viễn. Nếu cả hai đều đồng ý, chúng tôi sẽ để các bạn giữ đồ đã đổi vĩnh viễn",
+    "extension_proposed": "Muốn giữ đồ đã đổi lâu thêm chút? Trong tuần tới, bất cứ lúc nào bạn cũng có thể đề nghị gia hạn đổi đồ thêm 01 tháng. Nếu cả đều đồng ý, chúng tôi sẽ trì hoãn việc hoàn trả đồ thêm 01 tháng",
+
+    "early_return_requested": "Bạn có muốn hoàn trả đồ sớm hơn dự định không?",
+    "retention_requested": "Bạn có muốn giữ đồ đã đổi vĩnh viễn không?",
+    "extension_requested": "Bạn có muốn giữ đồ đã đổi thêm 01 tháng không?",
+
+    "early_return_confirmed": "Bạn sẽ được tiến hành hoàn trả đồ sớm hơn dự định",
+    "retention_confirmed": "Bạn có thể giữ đồ đã đổi vĩnh viễn",
+    "extension_confirmed": "Bạn có thể giữ đồ đã đổi thêm 01 tháng",
+
+    "return_pick_up_scheduling": "Lên lịch lấy đồ hoàn trả",
+    "return_pick_up_scheduled_chat": "Vui lòng chọn một địa điêm và thời gian hoàn trả đồ thích hợp thông qua chat",
+    "return_pick_up_scheduled_self": "Vui lòng gửi đồ hoàn trả tại {{laundryAddress}} trước {{time}} ngày {{date}}",
+    "return_pick_up_scheduled_laundry": "Vui lòng sẵn sàng giao đồ hoàn trả vào {{date}} trong khoảng {{timeSlot}}",
+
+    "return_pick_up_assigned": "Vui lòng chuẩn bị nhận lại đồ của bạn vào {{date}} trong khoảng {{timeSlot}}. Hãy trả {{fee}} cho shipper",
+
+    "return_picked": "Bạn đã giao đồ để hoàn trả",
+    "return_un_picked": "Tài khoảng của bạn đã tạm thời bị vô hiệu hoá. Để tiếp tục trao đổi đồ, vui lòng hoàn trả đồ sớm nhất có thể tại {{laundryAddress}}",
+    "return_received": "Đồ hoàn trả bắt đầu được giặt ủi",
+    "return_ready": "Sẵn sàng hoàn trả đồ",
+    "return_delivery_scheduled_self": "Vui lòng đến nhận đồ của bạn tại {{laundryAddress}} trước {{time}} ngày {{date}}. Vui lòng trả {{fee}} ở tiệm giặt.",
+    "return_delivery_scheduled_laundry": "Vui lòng chuẩn bị nhận lại đồ của bạn vào {{date}} trong khoảng {{timeSlot}}",
+
+    "return_delivery_assigned_self":"Vui lòng đến nhận đồ của bạn tại {{laundryAddress}} trước {{time}} ngày {{date}}",
+    "return_delivery_assigned_laundry":"Vui lòng chuẩn bị nhận lại đồ của bạn vào {{date}} trong khoảng {{timeSlot}}",
+    "return_delivered": "You have received your clothes after the swop",
+    "return_shipped": "Shipper đã nhận đồ hoàn trả",
+    "return_un_delivered": "Bạn có thể nhận lại đồ của bạn tại {{laundryAddress}} vào thời gian thích hợp của bạn",
+
+    "defaulted": "Cả hai bạn đều phải hoàn trả đồ đúng hạn. Người dùng trễ hạn sẽ bị cấm trao đổi đồ khác, người dùng trả đồ đúng hạn được phép tiếp tục giữ đồ cho đến khi đối phương hoàn trả đồ"
+  },
+  "different": {
+    "title": "Khác biệt hoặc hư hỏng?",
+    "text": "Bạn có chắc đồ này khác với ảnh không? hoặc không bị hư hỏng gì?\n\nNếu vậy, đồ này sẽ phải ",
+    "text2": "",
+    "textBold": "trả lại mà không qua giặt ủi. ",
+    "highlight": "Vui lòng không tiến hành giặt ủi đồ này.",
+    "bullet1": "Nếu ai đó đến giao đồ này, vui lòng hãy trả lại cho họ ngay.",
+    "bullet2": "Nếu shipper đã giao đồ này, vui lòng thu tiền vận chuyển. Một shipper khác sẽ đến lấy nó sau.",
+    "btnTx": "Đúng, đồ khác với ảnh hoặc bị hư hỏng."
+  },
+  "return_different": {
+    "title": "Khác biệt hoặc hư hỏng?",
+    "text": "Bạn có chắc đồ này khác với ảnh không? hoặc không bị hư hỏng gì?\n\nNếu vậy, đồ này sẽ phải ",
+    "text2": "",
+    "textBold": "trả lại mà không qua giặt ủi. ",
+    "highlight": "Vui lòng không tiến hành giặt ủi đồ này.",
+    "bullet1": "Nếu ai đó đến giao đồ này, vui lòng hãy trả lại cho họ ngay.",
+    "bullet2": "Nếu shipper đã giao đồ này, vui lòng thu tiền vận chuyển. Một shipper khác sẽ đến lấy nó sau.",
+    "btnTx": "Đúng, đồ khác với ảnh hoặc bị hư hỏng."
+  },
+  "actionNoShow": {
+    "title": "Không lấy được đồ?",
+    "text": "Nếu shipper không lấy được đồ từ người dùng, ",
+    "highlight": "vui lòng xác nhận tại đây",
+    "btnTx": "Đúng, shipper không thể lấy được đồ"
+  },
+  "received": {
+    "title": "Đồ chính xác và tiến hành giặt ủi?",
+    "text": "Bạn có chắc đồ giống như ảnh không?\n",
+    "highlight": "Trước khi tiến hành giặt ủi, vui lòng xác nhận",
+    "btnTx": "Đúng. Tiến hành giặt ủi"
+  },
+  "return_received": {
+    "title": "Đồ chính xác và tiến hành giặt ủi?",
+    "text": "Bạn có chắc đồ giống với ảnh không?\n",
+    "highlight": "Trước khi tiến hành giặt ủi, vui lòng xác nhận",
+    "btnTx": "Đúng. Tiến hành giặt ủi"
+  },
+  "ready": {
+    "title": "Đã hoàn tất giặt ủi?",
+    "text": "Vui lòng xác nhận đồ đã được giặt ủi và sẵn sàng để giao đi",
+    "highlight": "",
+    "btnTx": "Sẵn sàng được giao"
+  },
+  "return_ready": {
+    "title": "Đã hoàn tất giặt ủi?",
+    "text": "Vui lòng xác nhận đồ đã được giặt ủi và sẵn sàng để giao đi",
+    "highlight": "",
+    "btnTx": "Sẵn sàng được giao"
+  },
+  "actionCouldNotPickUp": {
+    "text": "Nếu shipper không thể lấy đồ từ người dùng, ",
+    "highlight": "Vui lòng xác nhận tại đây",
+    "btnTx": "Đúng. Shipper không thể lấy được đồ."
+  },
+  "actionProceed": {
+    "text": "Bạn có chắc đồ giống như ảnh không? ",
+    "highlight": "Trước khi tiến hành giặt ủi, vui lòng xác nhận",
+    "btnTx": "Đúng. Tiến hành giặt ủi"
+  },
+  "actionNotProceed": {
+    "text": "Đồ này phải được trả lại mà không qua giặt ủi. Nếu có người đã giao nó, hãy trả lại cho họ ngay. Nếu shipper đã giao nó, vui lòng thu tiền vận chuyển. Một shipper khác sẽ đến lấy nó sau.",
+    "highlight": "Vui lòng không tiến hành giặt ủi đồ này",
+    "btnTx": "OK. Sẽ không tiến hành giặt ủi"
+  },
+  "shipped": {
+    "title": "Sẵn sàng để giao đi?",
+    "text": "Vui lòng ",
+    "highlight": "thu VND 40k khi giao đồ cho shipper và xác nhận",
+    "btnTx": "Đã giao đồ thành công"
+  },
+  "return_shipped": {
+    "title": "Sẵn sàng để giao đi?",
+    "text": "Vui lòng ",
+    "highlight": "thu VND 40k khi giao đồ cho shipper và xác nhận",
+    "btnTx": "Đã giao đồ thành công"
+  },
+  "delivered": {
+    "title": "Sẵn sàng để giao đi?",
+    "text": "Vui lòng ",
+    "highlight": "thu VND 40k khi giao đồ cho shipper và xác nhận",
+    "btnTx": "Đã giao đồ thành công"
+  },
+  "return_delivered": {
+    "title": "Sẵn sàng để giao đi?",
+    "text": "Vui lòng ",
+    "highlight": "thu 40k VND khi giao đồ cho shipper và xác nhận",
+    "btnTx": "Đã giao đồ thành công"
+  },
+  "un_delivered": {
+    "title": "Giao đồ thất bại?",
+    "text": "Nếu shipper không thể nhận phí giặt ủi từ đơn hàng, vui lòng xác nhận tại đây",
+    "highlight": "Vui lòng trả lại 40k VND cho shipper và nhận đồ trả lại",
+    "btnTx": "Đúng. Shipper giao hàng không thành công."
+  },
+  "return_un_delivered": {
+    "title": "Giao đồ thất bại?",
+    "text": "Nếu shipper không thể nhận phí giặt ủi từ đơn hàng, vui lòng xác nhận tại đây",
+    "highlight": "Vui lòng trả lại 40k VND cho shipper và nhận đồ trả lại",
+    "btnTx": "Đúng. Shipper giao hàng không thành công."
+  },
+  "actionPicked": {
+    "title": "Đã lấy được đồ?",
+    "text": "Bạn có chắc đồ giống với ảnh không? \n",
+    "highlight": "Trước khi tiến hành giặt ủi, vui lòng xác nhận",
+    "btnTx": "Đúng. Tiến hành giặt ủi"
+  },
+  "actionUnPicked": {
+    "title": "Đã lấy được đồ?",
+    "text": "Đồ này sẽ phải được ",
+    "textBold": "trả lại mà không tiến hành giặt ủi. ",
+    "highlight": "Vui lòng không tiến hành giặt ủi đồ này",
+    "bullet1": "Nếu ai đó đến giao đồ này, vui lòng hãy trả lại cho họ ngay",
+    "bullet2": "Nếu shipper đã giao đồ này, vui lòng thu tiền vận chuyển. Một shipper khác sẽ đến lấy đồ này sau",
+    "btnTx": "OK. Sẽ không tiến hành giặt ủi"
+  },
+  "category": {
+    "tops_and_tees": "Áo",
+    "sweatshirts_and_sweaters": "Áo khoác nỉ & Áo len",
+    "coats_and_jackets": "Áo khoác & Áo choàng",
+    "dresses_and_gowns": "Đầm & Áo dạ hội",
+    "jumpsuits_and_rompers": "Áo quần liền mảnh & Quần yếm",
+    "pants": "Quần",
+    "leggings": "Quần bó",
+    "skirts": "Váy ngắn/Chân váy",
+    "shorts": "Quần ngắn",
+    "ethnic_wear": "Trang phục dân tộc"
+  },
+  "type": {
+    "t_shirt": "Áo phông",
+    "blouse": "Áo blouse",
+    "_tank_top": "Áo không tay",
+    "camisole_top": "Áo yếm",
+    "tube_top": "Áo ống",
+    "bodysuit": "Áo liền quần",
+    "gym_and_yoga_tops": "Áo Gym & Yoga",
+
+    "pullover": "Áo chui đầu",
+    "zip_up": "Áo có khoá kéo",
+    "sweater": "Áo len",
+    "cardigan": "Áo len đan (cardigan)",
+    "sweater_dress": "Đầm len",
+
+    "vest_coat": "Áo khoác vest",
+    "overcoat_and_trench_coat": "Áo khoác ngoài & Áo choàng",
+    "trench_coat": "Áo choàng (trench)",
+    "parka": "Áo có mũ trùm đầu",
+    "bomber_and_biker": "Áo khoác da (bomber & biker)",
+    "windbreaker ": "Áo gió",
+    "puffer_and_padded": "Áo nhồi bông",
+    "faux_fur_and_teddy": "Áo lông",
+
+    "a_line": "Váy suông (a-line)",
+    "fit_and_flare": "Váy ôm tà xoè (fit & flare)",
+    "camisole": "Váy 2 dây (camisole)",
+    "bodycon": "Váy bó tà suông (bodycon)",
+    "fitted": "Váy bó",
+    "tank": "Váy bó không tay (tank)",
+    "tube": "Váy ống (tube)",
+    "tee": "Váy áo (tee)",
+    "shirt_or_buttoned": "Váy có cúc",
+
+    "overall": "Quần yếm",
+    "culottes": "Quần lửng ống rộng",
+    "romper": "Áo liền quần ngắn",
+
+    "cargos": "Quần túi hộp",
+    "tailored": "Quần tailored",
+    "sweatpants": "Quần thể thao (sweatpants)",
+    "harems": "Quần harem",
+    "capris": "Quần lửng",
+    "jeans": "Quần jeans",
+    "joggers": "Quần jogger",
+    "jeggings": "Quần jegging",
+    "gym_and_yoga_pants": "Quần Gym & Yoga",
+
+    "Regular": "Thông thường",
+    "Stirrup": "Năng động",
+    "Others": "Khác",
+
+    "pleated": "Chân váy xếp li",
+    "pencil": "Chân váy bút chì",
+    "flared": "Chân váy xoè",
+    "straight": "Chân váy suông",
+    "slit": "Chân váy xẻ",
+    "wrap": "Chân váy xếp chồng",
+    "mermaid": "Chân váy đuôi cá",
+    "asymmetrical": "Chân váy xếp tầng",
+    "pinafore": "Váy yếm",
+
+    "cargo": "Quần ngắn túi hộp",
+    "bermudas": "Quần ngắn bermudas",
+    "biker_short": "Quần ngắn Biker",
+    "track_shorts": "Quần ngắn đi bộ",
+    "Denim_shorts": "Quần ngắn denim",
+    "gym_and_yoga_shorts": "Quần ngắn Gym & Yoga",
+    "skort": "Quần giả váy ngắn",
+
+    "saree_ndian": "Saree (Indian)",
+    "salwar_kameez_indian": "Salwar Kameez (Ấn Độ)",
+    "lehenga_ndian": "Lehenga (Ấn Độ)",
+    "ao_dai_vietnamese": "Ao Dai (Việt Nam)",
+    "kimono_japanese": "Kimono (Nhật Bản)",
+
+    "others": "Others"
+  },
+  "laundryStatus": {
+    "pick_up_scheduled": "Chưa nhận",
+    "pick_up_assigned": "Chưa nhận",
+    "return_pick_up_scheduled": "Chưa nhận",
+    "return_pick_up_assigned": "Chưa nhận",
+    "return_un_picked": "Chưa nhận",
+
+    "un_picked": "Nhận không thành công",
+
+    "received": "Đã nhận",
+    "return_received": "Đã nhận",
+
+    "ready": "Chưa giao",
+    "delivery_scheduled": "Chưa giao",
+    "delivery_assigned": "Chưa giao",
+    "return_ready": "Chưa giao",
+    "return_delivery_scheduled": "Chưa giao",
+    "return_delivery_assigned": "Chưa giao",
+
+    "un_delivered": "Giao không thành công",
+    "return_un_delivered": "Giao không thành công",
+
+    "shipped": "Shipper đã nhận đồ",
+    "delivered": "Đã giao",
+    "return_shipped": "Shipper đã nhận đồ hoàn trả",
+    "return_delivered": "Đã giao",
+
+    "picked": "Đã lấy đồ",
+    "finished":"Hoàn tất trao đổi đồ",
+    "return_pick_up_scheduling": "Lên lịch lấy đồ hoàn trả",
+    "return_picked": "Đã nhận đồ hoàn trả",
+    "early_return_proposed": "Đề xuất hoàn trả sớm",
+    "retention_proposed": "Đề xuất đổi đồ vĩnh viễn",
+    "extension_proposed": "Đề xuất gia hạn đổi đồ",
+    "early_return_requested": "Yêu cầu hoàn trả đồ sớm",
+    "retention_requested": "Yêu cầu đổi đồ vĩnh viễn",
+    "extension_requested": "Yêu cầu gia hạn đổi đồ",
+    "early_return_confirmed": "Hoàn trả sớm được chấp thuận",
+    "retention_confirmed": "Đổi đồ vĩnh viễn được chấp thuận",
+    "extension_confirmed": "Gia hạn đổi đồ được chấp thuận"
+  },
+  "selectRole": {
+    "selectApp":"Lựa chọn Ứng dụng",
+    "loginAsAdmin": "Đăng nhập như Admin",
+    "loginAsLaundry": "Đăng nhập như Nhân viên tiệm Giặt Ủi",
+    "loginAsUser": "Đăng nhập như người dùng"
+  },
+  "emptyState": {
+    "noMoreDress": "Không có bộ đô nào để hiển thị :( \n Tại sao bạn không mời bạn của bạn đến với Swop? Nhiều người có nghĩa là sẽ có nhiều bộ đồ hơn để chọn!",
+    "needAddMoreClothes": "Để Swop, người khác cũng phải thích bộ đồ từ tủ đồ của bạn. Vì thế, Thêm nhiều bộ đồ vào tủ đồ của bạn để có nhiều sự phù hợp hơn.",
+    "noMatchesAvailable": "Để Swop, người khác cũng phải thích bộ đồ từ tủ đồ của bạn. Những bộ đồ đẹp sẽ hiển thị ở đây, mà nhiều người khác có khả năng sẽ Thích.",
+    "noSwops": "Chưa có Swop nào!!? Bắt đầu quẹt bộ đồ từ người khác. Nếu ai đó thích những bộ đồ trong tủ đồ của bạn, bạn sẽ có nhiều sự lựa chọn hơn. Bạn có thể lấy từ nhiều sự phù hơp cho mỗi bộ đồ của bạn và chọn để trao đổi. Phần còn lại hãy để chúng tôi.\n Happing Swopping!"
+  },
+  "swopTokens": {
+    "swopTokens": "Swop Tokens",
+    "no": "No",
+    "tokenSource": "Nguồn Token",
+    "validUntil": "Có hiệu lực đến",
+    "tokenStatus": "Trạng thái Token",
+    "used": "Đã dùng",
+    "active": "Có hiệu lực",
+    "free": "Miễn phí"
+  },
+  "userHome": {
+    "hasFilter": "Bạn đang nhìn thấy những bộ quần áo đã được lọc.",
+    "hasLooks": "Bạn đang nhìn thấy những bộ quần áo từ bộ sưu tập"
+  },
+  "laundrySwopDetails": {
+    "differentOrDamaged": "Khác\n Hoặc Bị hư hỏng",
+    "clothesSameAndFine": "Đúng. Quần áo giống và ổn.",
+    "pleaseMakeSure": "Vui lòng chắc chắn rằng quần áo giống với hình ảnh phía trên.",
+  },
+  "comingSoon": {
+    "title": "Sắp ra mắt",
+    "description": "Tính năng này sẽ sớm ra mắt trong thời gian tới. Hãy kiên nhẫn!"
+  },
+  "share": {
+    "title": "Swop - Thích . Phù hợp . Trao đổi",
+    "description": "Chào mừng đến với tủ quần áo tủ quần áo trực tuyến của bạn! Trao đổi những bộ quần áo yêu thích với những người phụ nữ khác và tận hưởng vô số sự lựa chọn quần áo để mặc, chỉ với một tách cafe."
+  }
+}
